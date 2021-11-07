@@ -1,0 +1,53 @@
+img{
+    width:300;
+    border:2px solid blue;
+    border-radius: 8px;
+
+}
+body{
+    direction:rtl;
+    
+    background-color: yellow;
+}
+p{
+    color:black;
+    font:Ariel;
+    width:50%;
+}
+li{
+    color:green;
+}
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 20% round;
+}
+h1{
+  
+    color:green;
+}
+.red{
+    color:red;
+    
+}
+.font{
+    font-size:40;
+}
+#style{
+    width:50%;
+    border:5px solid blue;
+    background-color: green;
+}
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
