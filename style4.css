@@ -1,0 +1,38 @@
+
+
+
+
+body{
+    background-color: lightgreen;
+    direction:rtl;
+    unicode-bidi: bidi-override;
+    text-align: right;
+    background-image: url("img/photo_רקע.jpg");
+    
+    
+    
+}
+a{
+    font-size:50;
+    color:black;
+    font:Ariel;
+    background-color: lightblue; 
+}
+
+p{
+    color:black;
+    font:Ariel;
+    font-size: 50;
+    background-color: lightblue; width: 30%;
+  
+
+}
+h1{
+    
+   text-shadow: 2px 2px 5px red;
+   background-color: lightgrey;width: 18%;
+   color: white;
+   font-size: 80;
+}
+
+

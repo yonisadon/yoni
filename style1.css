@@ -1,0 +1,21 @@
+img{
+    width:250;
+    
+  
+}
+
+body{
+    direction:rtl; 
+    text-decoration: CaptionText;
+    background-color: lightblue;
+}
+p{
+    color:black;
+    font:Ariel;
+    font-size:200%;
+    width:50%;
+}
+h1{
+    color:red;
+text-shadow: 2px 2px 5px red;
+}

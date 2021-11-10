@@ -1,0 +1,37 @@
+<style>
+body{margin-bottom: 25px;}
+body{
+    background-color: ;
+    direction:rtl;
+    unicode-bidi: bidi-override;
+    text-align: right;
+}
+p{
+    color:black;
+    font:Ariel;
+    width:80%;
+    font-size:150%;
+}
+h1{
+    color:red;
+text-shadow: 2px 2px 5px red;
+}
+
+
+div.polaroid {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+div.container {
+  font-size:120%;
+  text-align-last: middle;
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+
+
+
