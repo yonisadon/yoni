@@ -6,7 +6,6 @@ img{
 }
 body{
     direction:rtl;
-    
     background-color: yellow;
 }
 p{
@@ -17,11 +16,7 @@ p{
 li{
     color:green;
 }
-#borderimg2 {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(border.png) 20% round;
-}
+
 h1{
   
     color:green;
@@ -33,11 +28,7 @@ h1{
 .font{
     font-size:40;
 }
-#style{
-    width:50%;
-    border:5px solid blue;
-    background-color: green;
-}
+
 .nav {
   background-color: yellow; 
   list-style-type: none;
@@ -50,4 +41,8 @@ h1{
   display: inline-block;
   font-size: 20px;
   padding: 20px;
+}
+video {
+  width: 50%;
+  height: auto;
 }
