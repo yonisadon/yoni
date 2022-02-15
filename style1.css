@@ -1,5 +1,6 @@
 img{
-    width:250;
+    width:400;
+	height: 400;
     
   
 }
@@ -8,6 +9,8 @@ body{
     direction:rtl; 
     text-decoration: CaptionText;
     background-color: lightblue;
+	border: 10px solid #ccc;
+	border-color:lightgreen ;
 }
 p{
     color:black;
