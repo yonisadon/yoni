@@ -1,43 +1,114 @@
 body{
     direction:rtl;    
-    background-color: lightblue;
+    background-color: lightyellow;
 	text-align: center;
+	border: 5px solid #ccc;
+	border-color: blue;	
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
 }
-ul{
-    color:black;
-    font:Ariel;
-    font-size:40; 
-}
-h1{
-    color:red;
-text-shadow: 2px 2px 5px red;
-}
-div.gallery {
+div.gallery{ 
   margin: 5px;
   float: left;
   width: 235px;
   border-radius:24px;
-}
-div.gallery:hover {
+} 	
+
+div.gallery:hover{
   border: 2px solid #777;
-}
-
-
+  border-color: blue;
+} 
 div.gallery img {
   width: 100%;
   height: auto;
 }
-div.desc {
+div.desc{ 
   padding: 15px;
   text-align: center;
 }
+.ul{
+    color:black;
+    font:Ariel;
+	font-size:40; 
 
-text-decoration: CaptionText;
-img
-    width:300;
-	border: 2px solid #ccc;
+}
+h1{
+    color:red;
+    text-shadow: 2px 2px 5px red;
+	font-size:80;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
 	
 	
-    
-  
-
+	
+}
+.menu-bar{
+	background:rgb(0,100,0);
+	text-align:center;
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar ul li{
+	width:150px;
+	margin:15px;
+	padding:15px:
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:#fff;
+	
+}
+.active,.menu-bar ul li:hover
+{
+	background:#2bab0d;
+	border-radius:3px;
+}
+.menu-bar .fa
+{
+	margin-right:8px;
+}
+.sub-menu-1{
+	display:none;
+	
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+	
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+	
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:#b2ff00
+}
